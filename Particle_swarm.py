@@ -83,13 +83,7 @@ print ('iterations      : ', i+1)
 
 #print(p.params[0:999])
 
-import matplotlib.pyplot as plt
-plt.plot(p.params[0],p.params[1])
-plt.ylabel('some numbers')
-plt.show()
-
-
 
 ## Uncomment to print particles
-for p in particles:
-    print ('params: %s, fitness: %s, best: %s' % (p.params, p.fitness, p.best))
+#for p in particles:
+#    print ('params: %s, fitness: %s, best: %s' % (p.params, p.fitness, p.best))
